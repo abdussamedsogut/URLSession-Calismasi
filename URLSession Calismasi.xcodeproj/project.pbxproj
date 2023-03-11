@@ -13,6 +13,8 @@
 		E400C3B129BCAEEE00D7B33B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E400C3AF29BCAEEE00D7B33B /* Main.storyboard */; };
 		E400C3B329BCAEEE00D7B33B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E400C3B229BCAEEE00D7B33B /* Assets.xcassets */; };
 		E400C3B629BCAEEE00D7B33B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E400C3B429BCAEEE00D7B33B /* LaunchScreen.storyboard */; };
+		E400C3BE29BD021B00D7B33B /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400C3BD29BD021B00D7B33B /* Kisiler.swift */; };
+		E400C3C029BD033700D7B33B /* KisiCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400C3BF29BD033700D7B33B /* KisiCevap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E400C3B229BCAEEE00D7B33B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E400C3B529BCAEEE00D7B33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E400C3B729BCAEEE00D7B33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E400C3BD29BD021B00D7B33B /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		E400C3BF29BD033700D7B33B /* KisiCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiCevap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E400C3B229BCAEEE00D7B33B /* Assets.xcassets */,
 				E400C3B429BCAEEE00D7B33B /* LaunchScreen.storyboard */,
 				E400C3B729BCAEEE00D7B33B /* Info.plist */,
+				E400C3BD29BD021B00D7B33B /* Kisiler.swift */,
+				E400C3BF29BD033700D7B33B /* KisiCevap.swift */,
 			);
 			path = "URLSession Calismasi";
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				E400C3AE29BCAEEE00D7B33B /* ViewController.swift in Sources */,
 				E400C3AA29BCAEEE00D7B33B /* AppDelegate.swift in Sources */,
 				E400C3AC29BCAEEE00D7B33B /* SceneDelegate.swift in Sources */,
+				E400C3BE29BD021B00D7B33B /* Kisiler.swift in Sources */,
+				E400C3C029BD033700D7B33B /* KisiCevap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

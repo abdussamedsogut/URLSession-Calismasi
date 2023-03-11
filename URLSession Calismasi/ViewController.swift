@@ -127,7 +127,15 @@ class ViewController: UIViewController {
             
             do {
                 if let json = try JSONSerialization.jsonObject(with: data!) as? [String:Any] {
-                    print(json)
+
+                    let cevap = try JSONDecoder().decode(KisiCevap.self,from: data!)
+                    
+                    for kisi in cevap.kisiler! {
+                        print("kisi id : \(kisi.kisi_id!)")
+                        print("kisi ad : \(kisi.kisi_ad!)")
+                        print("kisi tel: \(kisi.kisi_tel!)")
+                    }
+                    
                 }
                 
             }catch {
